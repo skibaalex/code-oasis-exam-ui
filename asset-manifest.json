@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/code-oasis-exam-ui/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/code-oasis-exam-ui/static/js/main.0ab7d52b.chunk.js",
-    "main.js.map": "/code-oasis-exam-ui/static/js/main.0ab7d52b.chunk.js.map",
+    "main.js": "/code-oasis-exam-ui/static/js/main.6c2b12dc.chunk.js",
+    "main.js.map": "/code-oasis-exam-ui/static/js/main.6c2b12dc.chunk.js.map",
     "runtime-main.js": "/code-oasis-exam-ui/static/js/runtime-main.47f9c0df.js",
     "runtime-main.js.map": "/code-oasis-exam-ui/static/js/runtime-main.47f9c0df.js.map",
     "static/js/2.2eff972d.chunk.js": "/code-oasis-exam-ui/static/js/2.2eff972d.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.47f9c0df.js",
     "static/js/2.2eff972d.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.0ab7d52b.chunk.js"
+    "static/js/main.6c2b12dc.chunk.js"
   ]
 }
