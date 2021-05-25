@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
 } from "react-router-dom";
 
 const theme = createMuiTheme({
@@ -20,7 +20,7 @@ const theme = createMuiTheme({
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <Router>
+      <Router basename='/'>
         <App />
       </Router>
     </ThemeProvider>

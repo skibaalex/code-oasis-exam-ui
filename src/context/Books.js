@@ -84,7 +84,9 @@ const BooksReducer = (state, action) => {
 export const BooksProvider = ({ children }) => {
     const [state, dispatch] = useReducer(BooksReducer, initialBooksState)
     const { isAuthenticated } = useContext(AuthContext)
+
     const buyBook = (bookId) => {
+        if (!isAuthenticated) return console.log('not authenticated.')
         api.post('/books/purchase', { bookId }).then(res => {
             dispatch({
                 type: 'BUY_BOOK',
